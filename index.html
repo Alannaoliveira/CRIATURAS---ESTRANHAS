@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="logo.png">
+        <p>Durante uma viagem escolar, Ana, Pedro, Luiza e João, estudantes curiosos e aventureiros, estavam explorando uma antiga floresta ao redor de sua escola. A floresta era densa, misteriosa e repleta de árvores altíssimas cujas folhas se moviam de maneira inquietante, como se sussurrassem segredos. Quando se afastaram do grupo principal para explorar uma trilha desconhecida, notaram um brilho intenso entre as árvores, algo que parecia quase sobrenatural. A curiosidade tomou conta deles, e ao se aproximarem, uma energia poderosa os envolveu, fazendo com que, ao tocarem o brilho, fossem sugados por um portal luminoso.
+
+Quando a visão deles se estabilizou, eles se encontraram em um mundo paralelo: Eldoria, uma terra mágica onde as emoções e a magia moldam a realidade. O céu, com cores que os olhos humanos nunca haviam visto, estava sobre eles, e a terra era habitada por criaturas fantásticas, como dragões e fadas. As árvores eram ainda mais imponentes e parecia que o próprio ambiente respirava e pulsava com vida.
+
+Logo, eles conheceram Lumis, um pequeno dragão azul que havia sido enviado para guiá-los. Ele os advertiu sobre uma grande ameaça: uma força sombria que se alimentava do medo e da desconfiança dos habitantes de Eldoria. Esta sombra estava consumindo aldeias inteiras, transformando os moradores em sombras vazias. A única esperança para impedir que Eldoria fosse tomada pela escuridão era encontrar um artefato mágico perdido há muito tempo. </p>
+        
+        <button class="proximo" data-proximo="1"> Entrar no brilho. 
+        </button>
+        
+        <button class="proximo" data-proximo="2"> Ignorar e voltar.
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-1">
+        <img src="logo.png">
+        <p>Os amigos, movidos pela curiosidade e pelo desejo de ajudar, decidiram seguir Lumis e entrar no mundo de Eldoria. Assim que atravessaram o portal, se viram em um lugar surreal: criaturas místicas, como grifos e unicórnios, circulavam livremente, enquanto o próprio ar parecia vibrar com a energia da magia. Lumis os levou até uma clareira, onde explicou a situação crítica do mundo. Uma sombra maligna estava espalhando pânico por Eldoria, e para derrotá-la, seria necessário encontrar um artefato mágico perdido há séculos.
+
+A missão não seria fácil, mas Lumis revelou que havia uma cidade chamada Lumina, onde os habitantes talvez soubessem mais sobre como derrotar a ameaça.
+        </p>
+        
+        <button class="proximo" data-proximo="3">
+          Conversar com Lumis e aprender mais sobre Eldoria.
+        </button>
+        
+        <button class="proximo" data-proximo="4">
+          Correr em direção à cidade de Lumina, ao longe.
+        </button>
+      </div>   
+          
+          <div class="passo" id="passo-2">
+            <img src="logo.png">
+            <p>
+              Optando por seguir imediatamente para a cidade, os amigos começaram sua jornada até Lumina, uma cidade distante, mas que parecia ser o coração do conhecimento e da sabedoria de Eldoria. Quando chegaram, no entanto, perceberam que algo estava muito errado. A cidade estava tomada pelo medo e desespero. As ruas estavam vazias e os moradores se escondiam em suas casas, temendo a crescente sombra que os ameaçava.
+
+Lá, eles encontraram uma biblioteca secreta onde um sábio ancião explicou que, para salvar Eldoria, era necessário resgatar as criaturas mágicas que haviam sido capturadas pela sombra e, com sua ajuda, encontrar o artefato perdido. O ancião disse que, em um templo distante, guardado por enigmas e desafios, estava a chave para derrotar a sombra de uma vez por todas.
+            </p>
+            
+            <button class="proximo" data-proximo="5">
+              Aceitar a missão de encontrar o artefato.
+            </button>
+            
+            <button class="proximo" data-proximo="6">
+              Recusar e explorar por conta própria.
+
+            </button>
+      </div>
+      
+      <div class="passo" id="passo-3">
+            <img src="logo.png">
+            <p>
+              Os amigos decidiram aprender mais sobre Eldoria com Lumis. Ele revelou que a sombra havia se tornado ainda mais poderosa ao longo dos séculos, se alimentando da desconfiança e do medo dos seres que habitavam o mundo. Lumis também explicou que o artefato mágico estava guardado em um templo antigo, rodeado de enigmas e perigos. No entanto, a missão era arriscada, e se não fosse realizada corretamente, a sombra poderia se espalhar ainda mais rápido.
+
+Com isso, os amigos decidiram que a única chance de salvar Eldoria seria encontrar o artefato, sem perder mais tempo. Lumis os guiou até a entrada do templo, que estava cercada por uma densa floresta, cheia de criaturas hostis e armadilhas perigosas.
+            </p>
+            
+            <button class="proximo" data-proximo="9">
+               Liberar a sombra, com a esperança de que ela possa se redimir e ajudar a salvar Eldoria.
+            </button>
+            
+            <button class="proximo" data-proximo="10">
+              Destruir a sombra de uma vez por todas, sem considerar qualquer pacto com ela.
+
+            </button>
+      </div>
+      
+      <div class="passo" id="passo-4">
+            <img src="ganhou.png">
+            <p>
+              Ao invés de enfrentar a sombra diretamente, os amigos decidiram voltar à cidade de Lumina e consultar os sábios da cidade para um plano mais estratégico. Os líderes de Lumina os receberam como heróis, e após uma reunião de conselhos, perceberam que a sombra tinha um ponto fraco: ela havia capturado várias criaturas mágicas que poderiam ser usadas para enfraquecê-la.
+
+Com a ajuda de Lumina, eles planejaram uma missão de resgate para libertar essas criaturas e, com elas, enfrentar a sombra com mais poder. A missão foi bem-sucedida, e as criaturas libertadas uniram-se à causa, ajudando os amigos a derrotar a sombra de uma maneira mais eficaz.
+            </p>
+            
+            <button class="proximo" data-proximo="0">
+              Reiniciar?
+            </button>
+           
+      </div>
+      
+      <div class="passo" id="passo-5">
+            <img src="logo.png">
+            <p>
+              Agora com as criaturas resgatadas e o artefato em mãos, os amigos marcharam para o castelo sombrio onde a sombra se escondia. Com a ajuda de Lumis e dos aliados mágicos, a batalha foi intensa. Luiza, com sua habilidade estratégica, organizou um ataque eficiente enquanto Pedro liderava a frente de combate. Ana e João ficaram responsáveis por proteger os habitantes de Lumina.
+
+A batalha contra a sombra foi épica, mas ao unirem suas forças e canalizarem as emoções positivas, os amigos conseguiram enfraquecer a sombra. Com um golpe final, eles usaram o artefato para aprisionar a sombra em uma dimensão paralela, onde ela não poderia mais ameaçar Eldoria.
+            </p>
+            
+            <button class="proximo" data-proximo="7">
+              Usar o artefato e as criaturas resgatadas para enfrentar a sombra.
+            </button>
+            
+            <button class="proximo" data-proximo="8">                  Recuar e buscar mais aliados.
+            </button>
+      </div>
+      
+      <div class="passo" id="passo-6">
+            <img src="perdeu.png">
+            <p>
+              Ao decidir recuar para buscar mais aliados, os amigos se afastaram do castelo. Porém, ao retornar mais tarde, descobriram que o tempo era contra eles. Sem a força do artefato e das criaturas resgatadas, a sombra já havia tomado conta de grande parte de Eldoria. Quando chegaram ao castelo, encontraram a batalha já perdida. Sem poder derrotar a sombra, Eldoria foi consumida pela escuridão, e o mundo mágico foi destruído.
+            </p>
+            
+            <button class="proximo" data-proximo="0">
+              Reiniciar?
+            </button>
+           
+      </div>
+      
+      <div class="passo" id="passo-7">
+            <img src="ganhou.png">
+            <p>
+              Armados com o artefato e as criaturas libertadas, os amigos marcharam para o castelo da sombra. A batalha foi difícil, mas com a união das forças mágicas e o poder da joia, eles conseguiram destruir a sombra, aprisionando-a em uma dimensão paralela. Eldoria foi salva, e os amigos se tornaram heróis.
+
+            </p>
+            
+            <button class="proximo" data-proximo="0">
+              Reiniciar?
+            </button>
+            
+      </div>
+      
+      <div class="passo" id="passo-8">
+            <img src="logo.png">
+            <p>
+              Os amigos, agora governantes de Eldoria, mantiveram a paz restaurada, mas a vigilância constante era necessária. O medo da sombra ainda pairava sobre os habitantes, e um regime de controle e monitoramento foi estabelecido para garantir que a sombra jamais retornasse.
+
+            </p>
+            
+            <button class="proximo" data-proximo="3">
+               Conversar com Lumis e aprender mais sobre Eldoria.
+            </button>
+            
+            <button class="proximo" data-proximo="4">
+              Correr em direção à cidade de Lumina, ao longe.
+            </button>
+      </div>
+      
+      <div class="passo" id="passo-9">
+            <img src="ganhou.png">
+            <p>
+              Se os amigos tivessem escolhido liberar a sombra, teriam feito um pacto com ela. A sombra, agora consciente e prometendo não causar mais mal, aceitou compartilhar a magia de Eldoria com todos. Isso restaurou o equilíbrio, mas com o custo de que a magia foi diluída entre todos os habitantes, tornando a paz frágil. Embora a sombra não fosse mais uma ameaça direta, ela ainda pairava como uma lembrança constante dos erros passados.
+            </p>
+            
+            <button class="proximo" data-proximo="0">
+              Reiniciar?
+            </button>
+            
+      </div>
+      
+      <div class="passo" id="passo-10">
+            <img src="perdeu.png">
+            <p>
+              Se tivessem decidido libertar a sombra, ela teria cumprido seu pacto e restaurado o equilíbrio, mas a magia de Eldoria ficou diluída entre todos, tornando o mundo muito mais instável. A sombra não foi completamente destruída, e sua presença ainda necessitou de vigilância constante.
+            </p>
+            
+            <button class="proximo" data-proximo="0">
+              Reiniciar?
+            </button>
+          
+      </div>
+      
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
